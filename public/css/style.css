@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.ui.attached.header {
+  background-color: rgba(0, 0, 0, 0.04); }
+
+body {
+  font: 16px Helvetica, Arial;
+  color: #303030; }
+
+h4 a {
+  text-decoration: none;
+  color: #fff; }
+
+form#usernameForm {
+  width: 100%;
+  height: 100%; }
+
+#messagesBlock {
+  padding: 0; }
+  #messagesBlock #messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    #messagesBlock #messages li {
+      padding: 16px; }
+      #messagesBlock #messages li:nth-child(even) {
+        background: #eee; }
+      #messagesBlock #messages li span.timestamp {
+        color: #ccc;
+        font-size: 0.75em;
+        padding-right: 2px; }
